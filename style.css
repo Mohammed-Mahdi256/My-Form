@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'norse-bold';
+    src: url('./fonts/norse-Bold.otf') format('opentype');
+}
+
+body {
+    background-image: url(./images/background-img.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-side {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 40vw;
+    height: 25vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 300px;
+}
+
+h1 {
+    font-family: 'norse-bold', sans-serif;
+    color: white;
+    font-size: 6rem;
+
+}
+.logo-photo {
+    height: 7rem;
+}
+
+
+form {
+    display: flex;
+    width: 60vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+
+p {
+    margin: 16px;
+    padding: 70px 30px;
+    height: 35%;
+    font-size: 1.5rem;
+}
+
+section {
+    height: 45%;
+    background-color: white;
+}
+
+.submit-section {
+    height: 20%;
+}
