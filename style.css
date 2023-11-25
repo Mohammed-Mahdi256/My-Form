@@ -52,16 +52,68 @@ form {
 
 p {
     margin: 16px;
-    padding: 70px 30px;
+    padding: 100px 30px 0px 30px;
     height: 35%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-section {
+div.inputs-section {
     height: 45%;
     background-color: white;
+    padding: 30px 46px 30px 46px;
+}
+
+legend {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+section.inputs-section {
+    display: flex;
+    width: 100%;
+    height: 80%;
 }
 
 .submit-section {
     height: 20%;
 }
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+label {
+    display: block;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+input {
+    width: 75%;
+    height: 28px;
+    font-size: large;
+    border: 1px solid rgba(52, 152, 219, 0.5);
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid #2980b9;
+    box-shadow: 1px 1px 5px rgb(32, 134, 202);
+    outline: none;
+}
+
