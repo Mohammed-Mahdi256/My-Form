@@ -7,6 +7,10 @@
     src: url('./fonts/norse-Bold.otf') format('opentype');
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-image: url(./images/background-img.jpg);
     margin: 0;
@@ -16,13 +20,13 @@ body {
     background-position: center;
     display: flex;
     align-items: center;
-    
+    height: 100%;
 }
 
 .logo-side {
     background-color: rgba(0, 0, 0, 0.4);
-    width: 40vw;
-    height: 25vh;
+    width: 40%;
+    height: 25%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -44,8 +48,8 @@ h1 {
 
 form {
     display: flex;
-    width: 60vw;
-    height: 100vh;
+    width: 60%;
+    height: 100%;
     background-color: whitesmoke;
     flex-direction: column;
 }
@@ -63,6 +67,7 @@ div.inputs-section {
     height: 45%;
     background-color: white;
     padding: 30px 46px 30px 46px;
+    box-shadow: 1px 1px 5px rgb(88, 156, 201);
 }
 
 legend {
@@ -117,3 +122,37 @@ input:focus {
     outline: none;
 }
 
+.error {
+    border: 1px solid red;
+}
+
+
+
+.submit-section {
+    padding: 28px 46px;
+}
+
+button.submit-btn {
+    width: 200px ;
+    height: 40px;
+    background-color: #596D48;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 0px solid #000;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0px 1px 2px 0px rgba(34, 55, 34, 0.7);
+}
+
+.login {
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    font-weight: bold;
+}
+
+a {
+    color: green;
+}
