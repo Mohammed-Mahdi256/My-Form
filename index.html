@@ -19,31 +19,31 @@
                 <section class='inputs-section'>
                     <div class="inputs">
                         <div>
-                            <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name" name="first-name">
+                            <label for="first-name">FIRST NAME <span>*</span></label>
+                            <input type="text" id="first-name" name="first-name" maxlength="25" minlength="1" placeholder="Pizza" required>
                         </div>
                         <div>
-                            <label for="last-name">LAST NAME</label>
-                            <input type="text" id="last-name" name="last-name">
+                            <label for="last-name">LAST NAME <span>*</span></label>
+                            <input type="text" id="last-name" name="last-name" maxlength="25" minlength="1" placeholder="Steve" required>
                         </div>
                         <div>
-                            <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" id="phone" name="phone" >
+                            <label for="phone">PHONE NUMBER </label>
+                            <input type="tel" id="phone" name="phone" placeholder="0634 72 83 27 " pattern="^(\+\d{1,2}\s?)?(\(?\d{1,4}\)?[\s.-]?)?\d{6,}$">
                         </div>
                     </div>
                     <div class="inputs">
         
                         <div>
-                            <label for="email">EMAIL</label>
-                            <input type="email" id="email" name="email">
+                            <label for="email">EMAIL <span>*</span></label>
+                            <input type="email" id="email" name="email" required>
                         </div>
                         <div>
-                            <label for="password">PASSWORD</label>
-                            <input type="password" class='error' id="password" name="password">
+                            <label for="password">PASSWORD <span>*</span></label>
+                            <input type="password" class='error' id="password" name="password" required>
                         </div>
                         <div>
-                            <label for="confirmation-password">CONFIRM PASSWORD</label>
-                            <input type="password" class='error' id="confirmation-password" name="confirmation-password">
+                            <label for="confirmation-password">CONFIRM PASSWORD <span>*</span></label>
+                            <input type="password" class='error' id="confirmation-password" name="confirmation-password" required>
                             <label for="confirmation-password" id="passwords-unmatched" style="display: none; letter-spacing: 0px;">* passwords do not match!</label>
                         </div>
                     </div>
